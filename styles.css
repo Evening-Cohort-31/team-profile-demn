@@ -43,7 +43,79 @@ body {
 
 /* Teammate 1: Add hero styles here */
 
-/* Teammate 2: Add team member styles here */
+.team-member {
+    margin: 2rem 0;
+}
+
+.member-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+    transform: translateY(-5px);
+}
+
+.member-avatar {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.member-name {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.member-role {
+    color: #667eea;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.member-bio {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.skill-tag {
+    background: #667eea;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin: 0.2rem;
+    display: inline-block;
+}
+
+.fun-fact-btn {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.fun-fact-btn:hover {
+    background: #ff5252;
+}
+
+.fun-fact {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: #333;
+    font-style: italic;
+}
 
 /* Additional member card variations */
 .team-member:nth-child(even) .member-card {
