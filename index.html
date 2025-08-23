@@ -1,72 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Profile Page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Teammate 1: Add hero section here -->
 
-    <main class="main-content">
-      <div class="container">
-        <section class="team-section">
-          <h2 class="section-title">Meet Our Team</h2>
-          <div class="team-grid">
-          <div class="team-member" id="member1">
-    <div class="member-card">
-        <div class="member-avatar">🧟‍♂️</div>
-        <h3 class="member-name">Nick Segui</h3>
-        <p class="member-role">Full Stack Developer</p>
-        <p class="member-bio">Im not superstitious, but I am a little stitious.</p>
-        <div class="member-skills">
-            <span class="skill-tag">Javascript</span>
-            <span class="skill-tag">Git</span>
-            <span class="skill-tag">Problem Solving</span>
-        </div>
-        <button class="fun-fact-btn" onclick="showFunFact('member1')">Fun Fact!</button>
-        <p class="fun-fact" id="fact1" style="display: none;">[Add a fun fact about yourself!]</p>
-    </div>
-</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Profile Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-            <!-- Teammate 3: Add second team member here -->
-          </div>
-        </section>
-      </div>
-    </main>
+<body>
+  <!-- Teammate 1: Add hero section here -->
 
-   <section class="team-stats">
+  <main class="main-content">
     <div class="container">
-        <h2>Team Stats</h2>
-        <div class="stats-grid">
-            <div class="stat-card">
-                <div class="stat-number">4</div>
-                <div class="stat-label">Team Members</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">[?]</div>
-                <div class="stat-label">Git Commits</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">[?]</div>
-                <div class="stat-label">Pull Requests</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">∞</div>
-                <div class="stat-label">Lines of Learning</div>
-            </div>
-        </div>
-    </div>
-</section>
+      <section class="team-section">
+        <h2 class="section-title">Meet Our Team</h2>
+        <div class="team-grid">
+          <!-- Teammate 2: Add first team member here -->
+          <main class="main-content">
+            <div class="container">
+              <section class="team-section">
+                <h2 class="section-title">Meet Our Team</h2>
+                <div class="team-grid">
+                  <div class="team-member" id="member1">
+                    <div class="member-card">
+                      <div class="member-avatar">🧟‍♂️</div>
+                      <h3 class="member-name">Nick Segui</h3>
+                      <p class="member-role">Full Stack Developer</p>
+                      <p class="member-bio">Im not superstitious, but I am a little stitious.</p>
+                      <div class="member-skills">
+                        <span class="skill-tag">Javascript</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Problem Solving</span>
+                      </div>
+                      <button class="fun-fact-btn" onclick="showFunFact('member1')">Fun Fact!</button>
+                      <p class="fun-fact" id="fact1" style="display: none;">[Add a fun fact about yourself!]</p>
+                    </div>
+                  </div>
 
-<footer class="footer">
-    <div class="container">
-        <p>🎉 Built collaboratively with Git & GitHub by Team Big Brain 🎉</p>
-        <p>Learning is better together! 💪</p>
-    </div>
-</footer>
+                  <div class="team-member" id="member2">
+                    <div class="member-card">
+                      <div class="member-avatar">👨‍💻</div>
+                      <h3 class="member-name">🐸🌼✨ ~ Dale Hobbs ~ ✨🌼🐸</h3>
+                      <p class="member-role">Frontend Specialist</p>
+                      <p class="member-bio">I'm Dale, a passionate frontend developer! I love creating beautiful and
+                        functional
+                        user interfaces with the latest web technologies.</p>
+                      <div class="member-skills">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Teamwork</span>
+                      </div>
+                      <button class="fun-fact-btn" onclick="showFunFact('member2')">Fun Fact!</button>
+                      <p class="fun-fact" id="fact2" style="display: none;">I love playing board games on the weekends
+                        with my
+                        friends!</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </main>
 
-    <script src="main.js"></script>
-  </body>
+          <!-- Teammate 4: Add team stats and footer here -->
+          <section class="team-stats">
+            <div class="container">
+              <h2>Team Stats</h2>
+              <div class="stats-grid">
+                <div class="stat-card">
+                  <div class="stat-number">4</div>
+                  <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-number">[?]</div>
+                  <div class="stat-label">Git Commits</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-number">[?]</div>
+                  <div class="stat-label">Pull Requests</div>
+                </div>
+                <div class="stat-card">
+                  <div class="stat-number">∞</div>
+                  <div class="stat-label">Lines of Learning</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <footer class="footer">
+            <div class="container">
+              <p>🎉 Built collaboratively with Git & GitHub by Team Big Brain 🎉</p>
+              <p>Learning is better together! 💪</p>
+            </div>
+          </footer>
+
+          <script src="main.js"></script>
+</body>
+
 </html>

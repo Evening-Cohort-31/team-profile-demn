@@ -117,7 +117,26 @@ body {
     font-style: italic;
 }
 
-/* Teammate 3: Add your styles here */
+/* Additional member card variations */
+.team-member:nth-child(even) .member-card {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+}
+
+.team-member:nth-child(even) .member-role {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.team-member:nth-child(even) .member-bio {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.team-member:nth-child(even) .skill-tag {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
 
 .team-stats {
     background: #f8f9fa;

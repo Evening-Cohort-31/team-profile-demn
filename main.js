@@ -10,7 +10,20 @@ function showFunFact(memberId) {
   }
 }
 
-// Teammate 3: Add your JavaScript here
+function showFunFact(memberId) {
+  let factElement;
+  if (memberId === 'member2') {
+    factElement = document.getElementById('fact2');
+  } else {
+    factElement = document.getElementById('fact1');
+  }
+
+  if (factElement.style.display === 'none') {
+    factElement.style.display = 'block';
+  } else {
+    factElement.style.display = 'none';
+  }
+}
 
 // Fun extra: Page load animation (already provided for you!)
 document.addEventListener("DOMContentLoaded", function () {
