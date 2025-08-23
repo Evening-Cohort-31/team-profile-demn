@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Profile Page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Teammate 1: Add hero section here -->
 
-    <main class="main-content">
-      <div class="container">
-        <section class="team-section">
-          <h2 class="section-title">Meet Our Team</h2>
-          <div class="team-grid">
-            <!-- Teammate 2: Add first team member here -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Profile Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 
-            <!-- Teammate 3: Add second team member here -->
+<body>
+  <!-- Teammate 1: Add hero section here -->
+
+  <main class="main-content">
+    <div class="container">
+      <section class="team-section">
+        <h2 class="section-title">Meet Our Team</h2>
+        <div class="team-grid">
+          <!-- Teammate 2: Add first team member here -->
+
+          <div class="team-member" id="member2">
+            <div class="member-card">
+              <div class="member-avatar">👨‍💻</div>
+              <h3 class="member-name">🐸🌼✨ ~ Dale Hobbs ~ ✨🌼🐸</h3>
+              <p class="member-role">Frontend Specialist</p>
+              <p class="member-bio">I'm Dale, a passionate frontend developer! I love creating beautiful and functional
+                user interfaces with the latest web technologies.</p>
+              <div class="member-skills">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">GitHub</span>
+                <span class="skill-tag">Teamwork</span>
+              </div>
+              <button class="fun-fact-btn" onclick="showFunFact('member2')">Fun Fact!</button>
+              <p class="fun-fact" id="fact2" style="display: none;">I love playing board games on the weekends with my
+                friends!</p>
+            </div>
           </div>
-        </section>
-      </div>
-    </main>
+        </div>
+      </section>
+    </div>
+  </main>
 
-    <!-- Teammate 4: Add team stats and footer here -->
+  <!-- Teammate 4: Add team stats and footer here -->
 
-    <script src="main.js"></script>
-  </body>
+  <script src="main.js"></script>
+</body>
+
 </html>
